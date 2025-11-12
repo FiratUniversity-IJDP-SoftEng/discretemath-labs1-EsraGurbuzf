@@ -5,3 +5,5 @@ def prime(number):
     if number % i == 0:
       return False
   return True
+result = int(input("Enter a number: "))
+print(prime(result))
